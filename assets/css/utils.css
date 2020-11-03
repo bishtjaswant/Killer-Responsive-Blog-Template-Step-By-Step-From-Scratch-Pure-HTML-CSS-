@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --anton: 'Anton', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+}
+
+.m-auto{
+    margin: 0 auto;
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 95vw;
+}
+
+
+.btn {
+    padding: 0.45rem;
+    color: #eee;
+    background-color: #101010;
+    text-transform: capitalize;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    margin: 0 0 0 0.2rem;
+    width: 4rem;
+    cursor: pointer;
+}
+.form-input{
+        padding: 0.3rem;
+        /* width: 12rem; */
+        /* border: none; */
+        outline: none;
+        color: black;
+}

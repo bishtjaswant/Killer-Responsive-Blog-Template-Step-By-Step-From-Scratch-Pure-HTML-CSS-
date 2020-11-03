@@ -1,0 +1,263 @@
+@media screen and (max-width: 896px){
+    .articles .article-title {
+        font-size: 1rem;
+    }
+
+    .articles .article-desc {
+        font-size: 1.2rem;
+    }
+    .content-right {
+        display: none;
+    }
+
+    .content-left {
+        display: block;
+    border: 2px solid;
+    width: 100%;
+    }
+    
+    .content-title {
+        text-align: center;
+    }
+
+    .contactus .contact-title h1 {
+        
+        font-size: 3rem;
+    }
+
+    .contact-title p{
+        font-size: 2rem;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 798px){
+    .articles .article{
+        display: flex;
+    flex-direction: column;
+    }
+
+    .articles .article-img img {
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .articles .article {
+        margin: 0;
+    }
+
+.article .article-box {
+    padding: 1rem 2rem;
+}
+
+.articles .article-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.articles .article-author, .article-date {
+    font-size: 1.3rem;
+    margin: 2rem 1rem;
+}
+
+.articles .article-desc {
+   margin: 2rem 1rem;
+}
+
+.articles .article-desc {
+    margin: 1rem 1rem;
+}
+.article-box .row {
+    
+        display: flex;
+        justify-content: center;
+    
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    height: 10rem;
+    padding: 1rem 0;
+}
+
+.header .left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 1rem 0;
+    width: 20rem;
+    align-items: center;
+}
+
+.header .logo .title {
+      font-size: 1.4rem; 
+    text-align: center;
+}
+
+.header .nav .links {
+    display: flex;
+    height: 1rem;
+    
+}
+
+
+
+.articles .row {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.blog-article .blog-article-img img {
+    width: 100%;
+    
+    height: auto;
+    padding: 1rem;
+}
+
+.articles .row {
+  padding: 1rem;
+}
+.blog-article-title {
+    font-family: 'Anton';
+    font-size: 2rem;
+    
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+article .feature {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.blog-article .blog-article-author{
+    font-size: 1rem;
+}
+
+.blog-article .blog-article-date{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.contact-box form input {
+    width: 100%;
+}
+.contact-box form .textarea {
+    width: 100%;
+}
+.contactus form .send{
+    width: 100%;
+}
+
+.contactus .contact-title h1 {
+    text-align: center;
+}
+
+
+}
+
+
+@media screen and (max-width: 598px){
+    .blog-img h1 {
+        font-size: 2rem;
+    }
+
+    .blog-article-title {
+        text-align: center;
+    }
+
+    .blog-article .blog-article-author {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .blog-article .blog-article-date {
+        margin: 0;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .content-title {
+        
+        font-size: 1.6rem;
+    }
+
+    .articles .article-title {
+        font-size:1.3rem;
+        text-align: left;
+    }
+
+    .articles .article-author, .article-date {
+        /* font-size: 1.3rem; */
+        margin: 0;
+    }
+    .articles .row {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+    }
+
+    .articles .article-box .row{
+        display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+
+    .articles .article-desc {
+       
+        text-align: justify;
+    }
+}
+
+
+
+
+@media screen and (max-width: 498px){
+    .content-title {
+        font-size: 1.1rem;
+    }
+    .content-body {
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: justify;
+        /* text-transform: capitalize; */
+    }
+
+
+    .contactus .contact-img {
+        display: none;
+    }
+
+    .contactus .contact-title h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+   .contactus .contact-title p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contact-box form input {
+        width: 100%;
+        margin: 0.3rem 0;
+    }
+
+    .contact-box form .textarea {
+        width: 100%;
+    }
+    
+    .contactus form .send {
+        width: 100%;
+    }
+
+}

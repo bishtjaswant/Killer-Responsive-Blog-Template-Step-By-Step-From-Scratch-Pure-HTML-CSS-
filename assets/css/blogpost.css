@@ -1,0 +1,96 @@
+article{
+    
+    margin: 1rem auto;
+    padding: 1rem 0;
+}
+.blog-img {
+position: relative;
+}
+
+.blog{
+margin: 1rem auto;
+}
+.blog-img img {
+    width: 100%;
+    height: 14rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.blog-img h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 3rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.blog h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+
+.blog p{
+    font-size: 1rem;
+    text-align: justify;
+
+    font-family: 'Roboto';
+    padding: 1rem 1rem;
+    box-shadow: 1px 8px 10px 7px gainsboro;
+}
+
+.articles .row{
+    display: flex;
+}
+
+.articles .article{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-article  .blog-article-img img{
+    width: 16rem;
+    object-fit: cover;
+    height: auto;
+    margin: 1rem;
+}
+
+.articles .blog-article-box{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem;
+}
+
+.blog-article-title{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Anton';
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+
+.blog-article-meta .row{
+    box-shadow: 1px 8px 10px 7px gainsboro;
+    display: flex;
+    justify-content: space-between;
+    /* background: gray; */
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.blog-article-meta .author span{
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
+.row .social i {
+    margin: 0 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}

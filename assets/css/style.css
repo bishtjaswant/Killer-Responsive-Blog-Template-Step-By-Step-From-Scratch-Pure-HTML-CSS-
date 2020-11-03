@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+
+body {
+  font-size: 62.5%;
+}
+
+
+.header {
+  height: 6rem;
+  /* background-color: coral;  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+
+.header .left {
+  display: flex;
+}
+
+.header .logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .logo a {
+  
+  color: #000000;
+  text-decoration: none;
+}
+
+.header .logo .title {
+  font-family: var(--anton);
+  font-size: 2.4rem;
+  text-transform: capitalize;
+}
+
+.header .logo .slogan {
+  /* font-size: 9px; */
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.header ul li {
+  list-style: none;
+}
+
+.header ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  padding: 0rem 0.4rem;
+  font-size: 1.2rem;
+  transition: all 1s ease-in-out;
+  letter-spacing: 2px;
+}
+
+.header ul li a:hover {
+  color: #fff;
+  background: black;
+}
+
+.header .nav .links {
+  display: flex;
+  width: auto;
+  /* border: 1px solid; */
+  align-items: center;
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+.content {
+  height: 20rem;
+  /* background-color: springgreen;   */
+  box-shadow: 1px 2px 3px 1px rgb(145, 140, 140);
+  display: flex;
+  position: relative;
+  margin: 1rem auto;
+}
+
+.content::after{
+    content: "";
+    background-image: url(../images/arti79.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    opacity: 0.4;
+    object-fit: cover;
+    background-size: cover;
+}
+.content-left {
+  /* background-color: blueviolet; */
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.content-right {
+  /* background-color: darkgoldenrod; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-right img {
+  width: 285px;
+  /* border-radius: 200px; */
+  height: 219px;
+  border: 1px solid;
+}
+
+.content-title {
+  font-size: 2rem;
+  /* color: #eee; */
+  text-transform: capitalize;
+  padding: 1rem;
+  color: #000000;
+  font-weight: 100;
+  font-family: var(--anton);
+}
+
+.content-body {
+  font-size: 1.19rem;
+  padding: 1rem;
+  text-align: justify;
+  text-transform: capitalize;
+  font-family: var(--roboto);
+  letter-spacing: 1px;
+  text-shadow: 1px green;
+}
+
+
+
+article {
+    background-color: #bdc3c7;
+    
+    box-shadow: rgb(145, 140, 140) 1px 2px 3px 1px;
+     position: relative;
+}
+
+.articles .article{
+     display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+article .feature {
+    font-size: 2rem;
+    font-family: var(--roboto);
+}
+
+
+
+.articles .article-img img{
+    width: 19rem;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.article .article-box {
+    display: flex;
+    flex-direction: column;
+}
+.articles .article-title {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.articles .article-author, .article-date {
+    font-size: 1rem;
+    margin: 2px 0;
+}
+
+.articles .article-desc{
+    font-size: 1.4rem;
+  font-family: var(--roboto);
+  font-weight: 100;
+} 
+
+.articles .read-btn {
+    padding: 0.45rem;
+    color: #eee;
+    background-color: #101010;
+    text-transform: capitalize;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    margin: 11px 0 0 0.2rem;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.articles .read-btn a{ 
+  color: #fff;
+  text-decoration: none;
+}
+
+
+article .year-box {
+  position: absolute;
+    top: 0rem;
+    right: 0rem;
+    /* background: red; */
+    padding: 1rem 0.2rem;
+    width: 12rem;
+}
+
+article .year-box span {
+  
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: 'Anton';
+}
+
+article .year-box input{
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 2rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .footer-content {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
